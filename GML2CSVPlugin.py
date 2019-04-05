@@ -2,6 +2,7 @@ import pandas as pd
 import sys
 import networkx as nx
 
+#must fix
 class GML2CSVPlugin:
 	def input(self, filename):
 		self.myfile = filename
